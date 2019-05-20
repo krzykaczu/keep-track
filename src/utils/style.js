@@ -1,18 +1,6 @@
-.body {
-  box-sizing: border-box;
-}
+import { css } from 'styled-components';
 
-.App {
-  text-align: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(5px + 2vmin);
-}
-
-.DatePicker {
+export const FieldStyles = css`
   display: block;
   font-size: calc(5px + 1vmin);
   font-family: sans-serif;
@@ -36,4 +24,6 @@
   background-repeat: no-repeat, repeat;
   background-position: right 0.7em top 50%, 0 0;
   background-size: 0.65em auto, 100%;
-}
+`;
+
+export const containerWidth = 90;
