@@ -182,7 +182,7 @@ exports[`ProjectsGrid renders & dueDate shows up & completeButton is not visible
           <span
             data-testid="dueDate"
           >
-            05/26/2019
+            07/12/2019
           </span>
         </div>
         <div

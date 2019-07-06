@@ -77,10 +77,10 @@ const ProjectForm = ({ dispatch }) => {
           </Cell>
           <Cell width={2}>
             {/* eslint-disable-next-line */}
-            <a
+            <span
               data-tip
               data-for="start date"
-              data-event="mouseenter mouseleave click"
+              data-event="mouseenter mouseleave"
             >
               <DatePicker
                 selected={startDate.startDate}
@@ -102,7 +102,7 @@ const ProjectForm = ({ dispatch }) => {
                 name="startDate"
                 className="DatePicker"
               />
-            </a>
+            </span>
             <ReactTooltip
               id="start date"
               place="bottom"
@@ -116,10 +116,10 @@ const ProjectForm = ({ dispatch }) => {
 
           <Cell width={2}>
             {/* eslint-disable-next-line */}
-            <a
+            <span
               data-tip
               data-for="due date"
-              data-event="mouseenter mouseleave click"
+              data-event="mouseenter mouseleave"
             >
               <DatePicker
                 selected={dueDate.dueDate}
@@ -141,7 +141,7 @@ const ProjectForm = ({ dispatch }) => {
                 name="dueDate"
                 className="DatePicker"
               />
-            </a>
+            </span>
             <ReactTooltip
               id="due date"
               place="bottom"

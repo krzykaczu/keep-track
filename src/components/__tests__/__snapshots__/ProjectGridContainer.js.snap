@@ -179,7 +179,7 @@ exports[`ProjectGridContainer renders & dueDate shows up & completeButton is not
         <span
           data-testid="dueDate"
         >
-          06/19/2019
+          08/5/2019
         </span>
       </div>
       <div
