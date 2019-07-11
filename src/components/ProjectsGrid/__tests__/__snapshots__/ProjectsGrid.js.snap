@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectsGrid renders & dueDate shows up & completeButton is not visible 1`] = `
+.c2 {
+  height: 100%;
+  min-width: 0;
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-self: stretch;
+}
+
+.c4 {
+  height: 100%;
+  min-width: 0;
+  grid-column-end: span 2;
+  grid-row-end: span 1;
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-self: stretch;
+}
+
+.c5 {
+  height: 100%;
+  min-width: 0;
+  grid-column-end: span 4;
+  grid-row-end: span 1;
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-self: stretch;
+}
+
+.c6 {
+  height: 100%;
+  min-width: 0;
+  grid-column-end: span 3;
+  grid-row-end: span 1;
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-self: stretch;
+}
+
+.c1 {
+  display: grid;
+  height: auto;
+  grid-auto-flow: row;
+  grid-auto-rows: minmax(40px,auto);
+  grid-template-columns: repeat(12,1fr);
+  grid-gap: 8px;
+}
+
+.c8 {
+  background: linear-gradient(-170deg,#ff6699 0%,#b30000 100%);
+  width: 83%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.c7 {
+  width: 90%;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #666;
+  box-shadow: 0 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.c3 {
+  all: 'unset';
+  opacity: 0;
+  cursor: pointer;
+  border: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  will-change: opacity;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  background: none;
+}
+
+.c0:hover {
+  background: rgba(0,0,0,0.1);
+}
+
+<div>
+  <div
+    style="width: 90%;"
+  >
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+          width="1"
+        >
+          <button
+            class="c3"
+            data-testid="completeButton"
+          >
+            <span
+              aria-hidden="false"
+              aria-label="complete"
+              data-testid="emoji"
+              role="img"
+            >
+              ✔
+            </span>
+          </button>
+        </div>
+        <div
+          class="c4"
+          width="2"
+        >
+          <span
+            data-testid="client"
+          >
+            Vitra
+          </span>
+        </div>
+        <div
+          class="c5"
+          width="4"
+        >
+          <span
+            data-testid="project"
+          >
+            New task chair
+          </span>
+        </div>
+        <div
+          class="c4"
+          width="2"
+        >
+          <span
+            data-testid="dueDate"
+          >
+            07/17/2019
+          </span>
+        </div>
+        <div
+          class="c6"
+          width="3"
+        >
+          <div
+            class="c7"
+          >
+            <div
+              class="c8"
+              data-testid="range"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
