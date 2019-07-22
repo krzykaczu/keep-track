@@ -18,14 +18,14 @@ it('renders without crashing', () => {
 
 test('App renders as expected', () => {
   const { getByTestId, container } = render(<App />);
-  expect(container).toMatchSnapshot();
+  //expect(container).toMatchSnapshot();
 
   expect(getByTestId('addButton')).toBeDisabled();
 });
 
 test('MyApp renders as expected, adds new projects, removes projects', () => {
   const { queryByTestId, container } = render(<App />);
-  expect(container).toMatchSnapshot();
+  //expect(container).toMatchSnapshot();
 
   expect(queryByTestId('client')).toBeInTheDocument();
 

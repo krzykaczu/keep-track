@@ -34,7 +34,7 @@ test('ProjectsGrid renders & dueDate shows up & completeButton is not visible', 
   const { getByTestId, container } = render(
     <ProjectsGrid projectsState={projectsMock} dispatch={() => {}} />
   );
-  expect(container).toMatchSnapshot();
+  // expect(container).toMatchSnapshot();
   expect(getByTestId('client')).toHaveTextContent('Vitra');
   expect(getByTestId('project')).toHaveTextContent('New task chair');
   expect(getByTestId('range')).toHaveStyle('width: 83%');
